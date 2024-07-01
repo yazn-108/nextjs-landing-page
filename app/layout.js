@@ -2,14 +2,12 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
-  title: "yazn_108 | nextjs landing page",
-  description:
-    "yazn_108 | landing page using nextjs & framer-motion & tailwind",
+  title: "yazn_108 | next.js 14",
+  description: "nextjs & framer-motion & tailwind",
   openGraph: {
     url: "https://yazn-landing-nextjs.vercel.app/",
-    title: "yazn_108 | nextjs landing page",
-    description:
-      "yazn_108 | landing page using nextjs & framer-motion & tailwind",
+    title: "yazn_108 | next.js 14",
+    description: "nextjs & framer-motion & tailwind",
     images: [
       {
         url: "https://raw.githubusercontent.com/yazn-108/nextjs-landing-page/main/siteBanner.png",
@@ -24,9 +22,8 @@ export const metadata = {
     card: "summary_large_image",
     domain: "yazn-108.github.io",
     url: "https://yazn-landing-nextjs.vercel.app/",
-    title: "yazn_108 | nextjs landing page",
-    description:
-      "yazn_108 | landing page using nextjs & framer-motion & tailwind",
+    title: "yazn_108 | next.js 14",
+    description: "nextjs & framer-motion & tailwind",
     image:
       "https://raw.githubusercontent.com/yazn-108/nextjs-landing-page/main/siteBanner.png",
   },
