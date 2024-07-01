@@ -1,5 +1,8 @@
 import Link from "next/link";
 import React from "react";
+export const metadata = {
+  title: "yazn_108 | Not Found Page",
+};
 const page = () => {
   return (
     <section className="h-dvh grid place-content-center">
