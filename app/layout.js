@@ -5,7 +5,7 @@ export const metadata = {
   title: "yazn_108 | next.js 14",
   description: "nextjs & framer-motion & tailwind",
   openGraph: {
-    url: "https://yazn-landing-nextjs.vercel.app/",
+    url: "https://landing-page/",
     title: "yazn_108 | next.js 14",
     description: "nextjs & framer-motion & tailwind",
     images: [
@@ -21,7 +21,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     domain: "yazn-108.github.io",
-    url: "https://yazn-landing-nextjs.vercel.app/",
+    url: "https://landing-page/",
     title: "yazn_108 | next.js 14",
     description: "nextjs & framer-motion & tailwind",
     image:
