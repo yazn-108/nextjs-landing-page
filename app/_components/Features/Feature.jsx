@@ -7,7 +7,7 @@ const Feature = ({ targetNum, sign, sectionName, svg }) => {
   const inView = useInView(ref);
   return (
     <div className="flex overflow-hidden rounded-lg bg-gray-800 text-gray-100">
-      <div className="flex items-center justify-center px-4 bg-violet-600 text-gray-800">
+      <div className="flex items-center justify-center px-4 bg-primary text-gray-800">
         {svg}
       </div>
       <div className="flex items-center justify-between flex-1 p-3">

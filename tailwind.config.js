@@ -11,6 +11,7 @@ module.exports = {
         "our-products": "url('/our-products.jpg')",
         contact: "url('/contact.svg')",
       },
+      colors: { primary: "#7c3aed" },
     },
   },
   plugins: [],

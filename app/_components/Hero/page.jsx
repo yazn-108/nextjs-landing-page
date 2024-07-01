@@ -11,7 +11,7 @@ const Page = () => {
     >
       <h1 className="text-3xl font-bold leading-none sm:text-5xl">
         Quisquam necessita vel
-        <span className="text-violet-600">
+        <span className="text-primary">
           laborum <br /> doloribus
         </span>
         delectus
@@ -25,7 +25,7 @@ const Page = () => {
           initial={{ x: "-100%", opacity: 0, rotate: 180 }}
           animate={{ x: "0%", opacity: 1, rotate: 0 }}
           transition={{ type: "spring", damping: 6, stiffness: 33, delay: 0 }}
-          className="px-8 py-3 m-2 text-lg font-semibold rounded bg-violet-600 text-gray-50"
+          className="px-8 py-3 m-2 text-lg font-semibold rounded bg-primary text-gray-50"
           onClick={() => {
             animate([
               ["button", { scale: 1.1 }],

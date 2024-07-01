@@ -3,7 +3,7 @@ const page = () => {
   return (
     <section
       id="contact"
-      className="overflow-hidden bg-contact bg-cover rounded-lg mx-4 border-2 border-violet-600 text-gray-400"
+      className="overflow-hidden bg-contact bg-cover rounded-lg mx-4 border-2 border-primary text-gray-400"
     >
       <div className="backdrop-blur-2xl w-full">
         <div className="container mx-auto px-5 py-24">
@@ -69,7 +69,7 @@ const page = () => {
                 </div>
               </div>
               <div className="w-full p-2">
-                <button className="mb-5 transition-all w-full rounded bg-violet-700 py-2 px-8 text-lg text-white hover:bg-violet-600 outline-none">
+                <button className="mb-5 transition-all w-full rounded bg-violet-700 py-2 px-8 text-lg text-white hover:bg-primary outline-none">
                   Button
                 </button>
               </div>

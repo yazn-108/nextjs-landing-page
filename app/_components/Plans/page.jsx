@@ -118,7 +118,7 @@ const page = () => {
                 </span>
               </li>
             </ul>
-            <button className="transition-all bg-violet-600 hover:bg-transparent border-2 border-transparent hover:border-violet-600 outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center text-white">
+            <button className="transition-all bg-primary hover:bg-transparent border-2 border-transparent hover:border-primary outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center text-white">
               Get started
             </button>
           </motion.div>
@@ -131,7 +131,7 @@ const page = () => {
               stiffness: 33,
               delay: 0.3,
             }}
-            className="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg shadow border-violet-600 border-2 xl:p-8 bg-gray-800 text-white"
+            className="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg shadow border-primary border-2 xl:p-8 bg-gray-800 text-white"
           >
             <h3 className="mb-4 text-2xl font-semibold">Company</h3>
             <p className="font-light sm:text-lg text-gray-400">
@@ -226,7 +226,7 @@ const page = () => {
                 </span>
               </li>
             </ul>
-            <button className="transition-all bg-violet-600 hover:bg-transparent border-2 border-transparent hover:border-violet-600 outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center text-white">
+            <button className="transition-all bg-primary hover:bg-transparent border-2 border-transparent hover:border-primary outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center text-white">
               Get started
             </button>
           </motion.div>
@@ -334,7 +334,7 @@ const page = () => {
                 </span>
               </li>
             </ul>
-            <button className="transition-all bg-violet-600 hover:bg-transparent border-2 border-transparent hover:border-violet-600 outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center text-white">
+            <button className="transition-all bg-primary hover:bg-transparent border-2 border-transparent hover:border-primary outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center text-white">
               Get started
             </button>
           </motion.div>

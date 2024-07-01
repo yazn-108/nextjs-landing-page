@@ -21,7 +21,7 @@ const Page = () => {
     });
   }, []);
   return (
-    <nav className="bg-[#0f172a] relative border-b-2 border-violet-600 w-screen z-50 py-2 px-4 shadow-[0_35px_60px_-15px_#7c3aed]">
+    <nav className="bg-[#0f172a] relative border-b-2 border-primary w-screen z-50 py-2 px-4 shadow-[0_35px_60px_-15px_#7c3aed]">
       <div className="flex items-center justify-between max-w-screen-xl m-auto">
         <div className="logo">
           <svg
@@ -89,38 +89,38 @@ const Page = () => {
           max-md:absolute
           left-0
           top-full
-          max-md:border-b-2 border-violet-600
+          max-md:border-b-2 border-primary
           max-md:overflow-hidden
           max-md:h-0
           "
           >
             <li
               data-section="#home"
-              className="hover:text-violet-600 cursor-pointer transition-all hover:scale-110 active"
+              className="hover:text-primary cursor-pointer transition-all hover:scale-110 active"
             >
               home
             </li>
             <li
               data-section="#about"
-              className="hover:text-violet-600 cursor-pointer transition-all hover:scale-110"
+              className="hover:text-primary cursor-pointer transition-all hover:scale-110"
             >
               about
             </li>
             <li
               data-section="#features"
-              className="hover:text-violet-600 cursor-pointer transition-all hover:scale-110"
+              className="hover:text-primary cursor-pointer transition-all hover:scale-110"
             >
               features
             </li>
             <li
               data-section="#plans"
-              className="hover:text-violet-600 cursor-pointer transition-all hover:scale-110"
+              className="hover:text-primary cursor-pointer transition-all hover:scale-110"
             >
               plans
             </li>
             <li
               data-section="#contact"
-              className="hover:text-violet-600 cursor-pointer transition-all hover:scale-110"
+              className="hover:text-primary cursor-pointer transition-all hover:scale-110"
             >
               contact
             </li>
