@@ -1,4 +1,7 @@
 import React from "react";
+export const metadata = {
+  title: "yazn_108 | loading...",
+};
 const Loading = () => {
   return (
     <div className="h-dvh flex flex-col items-center justify-center">
