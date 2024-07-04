@@ -24,8 +24,10 @@ export const metadata = {
     url: "https://yazn-landing-nextjs.vercel.app/",
     title: "yazn_108 | next.js landing page",
     description: "nextjs & framer-motion & tailwind",
-    image:
-      "https://raw.githubusercontent.com/yazn-108/nextjs-landing-page/main/siteBanner.png",
+    image: {
+      url: "https://raw.githubusercontent.com/yazn-108/nextjs-landing-page/main/siteBanner.png",
+      alt: "Site Banner",
+    },
   },
 };
 export default function RootLayout({ children }) {
